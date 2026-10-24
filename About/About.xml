@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>EvilEyeGuy.GiddyUpEditor</packageId>
+  <name>Giddy-Up Editor</name>
+  <author>EvilEyeGuy</author>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>MemeGoddess.GiddyUp</packageId>
+      <displayName>Giddy-Up 2</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3674332861</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>MemeGoddess.GiddyUp</li>
+  </loadAfter>
+  <description>An in-game editor for Giddy-Up 2. Fix how riders sit on their mounts and how the overlays are placed, live and without restarting.
+
+Open it with development mode on: select an animal and click the mount editor button.
+
+Rider
+- Four previews, one per direction, with the rider on the animal.
+- Move the rider per direction, mirror east and west.
+- Put a test rider on any animal to check it.
+
+Animal
+- Make any animal rideable or not rideable.
+- Draw the animal in front of the rider when it faces south.
+
+Overlay
+- Move the front, side and back overlay, separately for male and female if needed, scale it or turn it off.
+- Draw your own mask for the south view with a lasso: set corner points along the outline, for example along a mane, move, insert and delete points, use several areas. The mask shows on the animal right away.
+
+All settings and masks are kept in the RimWorld config folder and are applied on every start. Nothing in Giddy-Up or other mods is changed. The settings can be exported as a patch file for use in your own mod.
+
+Fixes a Giddy-Up issue where every animal used the overlay offsets of the first animal drawn with an overlay.</description>
+</ModMetaData>

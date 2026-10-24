@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GUE_Gizmo>Reittier-Editor</GUE_Gizmo>
+  <GUE_GizmoDesc>Reiterposition, Überlagerung und Maske für {0} und alle Tiere dieser Art bearbeiten.</GUE_GizmoDesc>
+  <GUE_Title>Giddy-Up-Editor · {0} ({1})</GUE_Title>
+  <GUE_Step>Schrittweite</GUE_Step>
+  <GUE_Zoom>Vorschau</GUE_Zoom>
+  <GUE_ZoomFar>weit</GUE_ZoomFar>
+  <GUE_ZoomMid>mittel</GUE_ZoomMid>
+  <GUE_ZoomNear>nah</GUE_ZoomNear>
+  <GUE_MirrorEastWest>Osten auf Westen spiegeln</GUE_MirrorEastWest>
+  <GUE_MirrorWestEast>Westen auf Osten spiegeln</GUE_MirrorWestEast>
+  <GUE_North>Norden</GUE_North>
+  <GUE_South>Süden</GUE_South>
+  <GUE_East>Osten</GUE_East>
+  <GUE_West>Westen</GUE_West>
+  <GUE_RiderHead>Reiter</GUE_RiderHead>
+  <GUE_Rider>Reitet gerade</GUE_Rider>
+  <GUE_Dismount>Absitzen</GUE_Dismount>
+  <GUE_PickRider>Kolonist aufsetzen …</GUE_PickRider>
+  <GUE_NoRiderInfo>Ohne Reiter zeigt die Vorschau nur das Tier. Ein Kolonist sitzt sofort auf und steigt beim Schließen wieder ab. Eine Pawn-Art erscheint nur in der Vorschau, etwa um andere Rassen oder Körperformen zu prüfen.</GUE_NoRiderInfo>
+  <GUE_RulesHead>Giddy-Up</GUE_RulesHead>
+  <GUE_Mountable>Reitbar</GUE_Mountable>
+  <GUE_DrawInFront>Tier vor dem Reiter</GUE_DrawInFront>
+  <GUE_DrawInFrontTip>Schaut das Tier nach Süden, wird es vor dem Reiter gezeichnet. Für Tiere ohne Maske, deren Körper den Reiter verdecken soll.</GUE_DrawInFrontTip>
+  <GUE_OverlayHead>Überlagerung</GUE_OverlayHead>
+  <GUE_SlotFront>Vorne</GUE_SlotFront>
+  <GUE_SlotSide>Seite</GUE_SlotSide>
+  <GUE_SlotBack>Hinten</GUE_SlotBack>
+  <GUE_NoOverlay>Für diese Richtung hat das Tier keine Überlagerung.</GUE_NoOverlay>
+  <GUE_Show>Anzeigen</GUE_Show>
+  <GUE_SplitGender>Nach Geschlecht getrennt</GUE_SplitGender>
+  <GUE_Male>Männlich</GUE_Male>
+  <GUE_Female>Weiblich</GUE_Female>
+  <GUE_Scale>Größe</GUE_Scale>
+  <GUE_OffsetX>Versatz X</GUE_OffsetX>
+  <GUE_OffsetZ>Versatz Z</GUE_OffsetZ>
+  <GUE_DrawMask>Maske zeichnen …</GUE_DrawMask>
+  <GUE_EditMask>Maske bearbeiten …</GUE_EditMask>
+  <GUE_MaskHint>Die Maske ist der Teil des Tiers, der beim Blick nach Süden vor dem Reiter liegt, etwa Kopf, Hals und Vorderbeine. Eine eigene Maske ersetzt die von Giddy-Up.</GUE_MaskHint>
+  <GUE_SlotHint>Vorne gilt für den Blick nach Süden, Seite für Osten und Westen, Hinten für Norden.</GUE_SlotHint>
+  <GUE_NoColonist>Kein freier Kolonist auf der Karte</GUE_NoColonist>
+  <GUE_Reset>Zurücksetzen</GUE_Reset>
+  <GUE_Export>Als Patch exportieren</GUE_Export>
+  <GUE_Close>Schließen</GUE_Close>
+  <GUE_SavedWhere>Änderungen wirken sofort und werden im RimWorld-Config-Ordner gespeichert.</GUE_SavedWhere>
+  <GUE_Exported>Patch gespeichert: {0}</GUE_Exported>
+  <GUE_MaskTitle>Maske · {0} ({1})</GUE_MaskTitle>
+  <GUE_MaskNoTexture>Die Südansicht dieses Tiers lässt sich nicht lesen.</GUE_MaskNoTexture>
+  <GUE_MaskPreview>Vorschau</GUE_MaskPreview>
+  <GUE_MaskNeedsRider>Setze im Editor einen Reiter auf oder wähle eine Pawn-Art, um die Maske über dem Reiter zu sehen.</GUE_MaskNeedsRider>
+  <GUE_MaskTools>Flächen</GUE_MaskTools>
+  <GUE_MaskNewArea>Neue Fläche</GUE_MaskNewArea>
+  <GUE_MaskDeleteArea>Fläche löschen</GUE_MaskDeleteArea>
+  <GUE_MaskClear>Alles löschen</GUE_MaskClear>
+  <GUE_MaskHelp>Linksklick setzt einen Eckpunkt. Ein Klick auf den ersten Punkt schließt die Fläche. Punkte lassen sich ziehen, Rechtsklick löscht einen Punkt, ein Klick auf eine Linie fügt dort einen neuen ein, den du gleich weiterziehen kannst. Rot markiert, was vor dem Reiter liegt. Das Mausrad zoomt, mit der mittleren Maustaste oder Alt und Ziehen verschiebst du das Bild.</GUE_MaskHelp>
+  <GUE_MaskVariant>Die Maske gilt für die Fellvariante „{0}“. Andere Varianten brauchen eine eigene Maske, dafür ein Tier mit dieser Variante auswählen.</GUE_MaskVariant>
+  <GUE_MaskSavedWhere>Jede Änderung wirkt sofort am Tier. Die Maske liegt im RimWorld-Config-Ordner unter GiddyUpEditor.</GUE_MaskSavedWhere>
+  <GUE_PickKind>Pawn-Art als Vorschau …</GUE_PickKind>
+  <GUE_PickKindTitle>Pawn-Art für den Vorschau-Reiter</GUE_PickKindTitle>
+  <GUE_PreviewRider>Vorschau-Reiter</GUE_PreviewRider>
+  <GUE_Remove>Entfernen</GUE_Remove>
+  <GUE_KindFailed>{0} ließ sich nicht erzeugen.</GUE_KindFailed>
+  <GUE_MaskZoom>Zoom</GUE_MaskZoom>
+  <GUE_MaskFit>Einpassen</GUE_MaskFit>
+</LanguageData>

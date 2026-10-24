@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GUE_Gizmo>Mount editor</GUE_Gizmo>
+  <GUE_GizmoDesc>Edit the rider position, overlay and mask for {0} and every animal of this kind.</GUE_GizmoDesc>
+  <GUE_Title>Giddy-Up Editor · {0} ({1})</GUE_Title>
+  <GUE_Step>Step size</GUE_Step>
+  <GUE_Zoom>Preview</GUE_Zoom>
+  <GUE_ZoomFar>far</GUE_ZoomFar>
+  <GUE_ZoomMid>medium</GUE_ZoomMid>
+  <GUE_ZoomNear>near</GUE_ZoomNear>
+  <GUE_MirrorEastWest>Mirror east to west</GUE_MirrorEastWest>
+  <GUE_MirrorWestEast>Mirror west to east</GUE_MirrorWestEast>
+  <GUE_North>North</GUE_North>
+  <GUE_South>South</GUE_South>
+  <GUE_East>East</GUE_East>
+  <GUE_West>West</GUE_West>
+  <GUE_RiderHead>Rider</GUE_RiderHead>
+  <GUE_Rider>Riding now</GUE_Rider>
+  <GUE_Dismount>Dismount</GUE_Dismount>
+  <GUE_PickRider>Mount a colonist …</GUE_PickRider>
+  <GUE_NoRiderInfo>Without a rider the preview only shows the animal. A colonist mounts at once and dismounts when the editor closes. A pawn kind only appears in the preview, for example to check other races or body shapes.</GUE_NoRiderInfo>
+  <GUE_RulesHead>Giddy-Up</GUE_RulesHead>
+  <GUE_Mountable>Rideable</GUE_Mountable>
+  <GUE_DrawInFront>Animal in front of rider</GUE_DrawInFront>
+  <GUE_DrawInFrontTip>When the animal faces south it is drawn in front of the rider. For animals without a mask whose body should cover the rider.</GUE_DrawInFrontTip>
+  <GUE_OverlayHead>Overlay</GUE_OverlayHead>
+  <GUE_SlotFront>Front</GUE_SlotFront>
+  <GUE_SlotSide>Side</GUE_SlotSide>
+  <GUE_SlotBack>Back</GUE_SlotBack>
+  <GUE_NoOverlay>This animal has no overlay for this direction.</GUE_NoOverlay>
+  <GUE_Show>Show</GUE_Show>
+  <GUE_SplitGender>Separate by gender</GUE_SplitGender>
+  <GUE_Male>Male</GUE_Male>
+  <GUE_Female>Female</GUE_Female>
+  <GUE_Scale>Size</GUE_Scale>
+  <GUE_OffsetX>Offset X</GUE_OffsetX>
+  <GUE_OffsetZ>Offset Z</GUE_OffsetZ>
+  <GUE_DrawMask>Draw mask …</GUE_DrawMask>
+  <GUE_EditMask>Edit mask …</GUE_EditMask>
+  <GUE_MaskHint>The mask is the part of the animal that lies in front of the rider when it faces south, such as head, neck and front legs. Your own mask replaces the one from Giddy-Up.</GUE_MaskHint>
+  <GUE_SlotHint>Front is used when facing south, side for east and west, back for north.</GUE_SlotHint>
+  <GUE_NoColonist>No free colonist on the map</GUE_NoColonist>
+  <GUE_Reset>Reset</GUE_Reset>
+  <GUE_Export>Export as patch</GUE_Export>
+  <GUE_Close>Close</GUE_Close>
+  <GUE_SavedWhere>Changes apply at once and are saved in the RimWorld config folder.</GUE_SavedWhere>
+  <GUE_Exported>Patch saved: {0}</GUE_Exported>
+  <GUE_MaskTitle>Mask · {0} ({1})</GUE_MaskTitle>
+  <GUE_MaskNoTexture>The south view of this animal cannot be read.</GUE_MaskNoTexture>
+  <GUE_MaskPreview>Preview</GUE_MaskPreview>
+  <GUE_MaskNeedsRider>Mount a rider or pick a pawn kind in the editor to see the mask over the rider.</GUE_MaskNeedsRider>
+  <GUE_MaskTools>Areas</GUE_MaskTools>
+  <GUE_MaskNewArea>New area</GUE_MaskNewArea>
+  <GUE_MaskDeleteArea>Delete area</GUE_MaskDeleteArea>
+  <GUE_MaskClear>Clear all</GUE_MaskClear>
+  <GUE_MaskHelp>Left click sets a corner point. Clicking the first point closes the area. Points can be dragged, right click deletes a point, clicking a line inserts a new point there that you can drag right away. Red marks what lies in front of the rider. The mouse wheel zooms, drag with the middle mouse button or Alt to move the image.</GUE_MaskHelp>
+  <GUE_MaskVariant>This mask is for the coat variant "{0}". Other variants need their own mask; select an animal with that variant.</GUE_MaskVariant>
+  <GUE_MaskSavedWhere>Every change shows on the animal at once. The mask is kept in the RimWorld config folder under GiddyUpEditor.</GUE_MaskSavedWhere>
+  <GUE_PickKind>Pawn kind as preview …</GUE_PickKind>
+  <GUE_PickKindTitle>Pawn kind for the preview rider</GUE_PickKindTitle>
+  <GUE_PreviewRider>Preview rider</GUE_PreviewRider>
+  <GUE_Remove>Remove</GUE_Remove>
+  <GUE_KindFailed>{0} could not be generated.</GUE_KindFailed>
+  <GUE_MaskZoom>Zoom</GUE_MaskZoom>
+  <GUE_MaskFit>Fit</GUE_MaskFit>
+</LanguageData>
