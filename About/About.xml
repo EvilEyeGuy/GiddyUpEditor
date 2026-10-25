@@ -35,12 +35,13 @@ Rider
 Animal
 - Make any animal rideable or not rideable.
 - Draw the animal in front of the rider when it faces south.
+- Change the body size of an animal kind. Masks and overlays scale along.
 
 Overlay
 - Move the front, side and back overlay, separately for male and female if needed, scale it or turn it off.
-- Draw your own mask for the south view with a lasso: set corner points along the outline, for example along a mane, move, insert and delete points, use several areas. The mask shows on the animal right away.
+- Draw your own masks for the front, side and back view with a lasso: set corner points along the outline, for example along a mane, move, insert and delete points, use several areas. Undo and redo with Ctrl+Z and Ctrl+Y. The mask shows on the animal right away.
 
-All settings and masks are kept in the RimWorld config folder and are applied on every start. Nothing in Giddy-Up or other mods is changed. The settings can be exported as a patch file for use in your own mod.
+All settings and masks are kept in the RimWorld config folder and are applied on every start. An overview, also in the mod settings, lists every changed animal and resets single animals or all of them. Nothing in Giddy-Up or other mods is changed. Rider positions, body size and overlay offsets can be exported as a patch file for use in your own mod.
 
 Fixes a Giddy-Up issue where every animal used the overlay offsets of the first animal drawn with an overlay.</description>
 </ModMetaData>

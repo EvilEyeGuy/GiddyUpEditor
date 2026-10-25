@@ -46,7 +46,7 @@
   <GUE_SavedWhere>Changes apply at once and are saved in the RimWorld config folder.</GUE_SavedWhere>
   <GUE_Exported>Patch saved: {0}</GUE_Exported>
   <GUE_MaskTitle>Mask · {0} ({1})</GUE_MaskTitle>
-  <GUE_MaskNoTexture>The south view of this animal cannot be read.</GUE_MaskNoTexture>
+  <GUE_MaskNoTexture>This view of the animal cannot be read.</GUE_MaskNoTexture>
   <GUE_MaskPreview>Preview</GUE_MaskPreview>
   <GUE_MaskNeedsRider>Mount a rider or pick a pawn kind in the editor to see the mask over the rider.</GUE_MaskNeedsRider>
   <GUE_MaskTools>Areas</GUE_MaskTools>
@@ -63,4 +63,43 @@
   <GUE_KindFailed>{0} could not be generated.</GUE_KindFailed>
   <GUE_MaskZoom>Zoom</GUE_MaskZoom>
   <GUE_MaskFit>Fit</GUE_MaskFit>
+  <GUE_SizeHead>Size</GUE_SizeHead>
+  <GUE_BodyScale>Body size</GUE_BodyScale>
+  <GUE_BodyScaleInfo>Draw size {0} instead of {1}. Mask and overlays scale along, adjust the rider position yourself.</GUE_BodyScaleInfo>
+  <GUE_Overview>Overview</GUE_Overview>
+  <GUE_OverviewTitle>Locally changed mounts</GUE_OverviewTitle>
+  <GUE_OverviewEmpty>No animals changed yet.</GUE_OverviewEmpty>
+  <GUE_OverviewMissing>not loaded</GUE_OverviewMissing>
+  <GUE_OverviewEdit>Edit</GUE_OverviewEdit>
+  <GUE_OverviewEditTip>An animal of this kind must be on the current map to edit it.</GUE_OverviewEditTip>
+  <GUE_OverviewReset>Reset</GUE_OverviewReset>
+  <GUE_OverviewConfirm>Sure?</GUE_OverviewConfirm>
+  <GUE_OverviewResetAll>Reset all</GUE_OverviewResetAll>
+  <GUE_OverviewHint>Reset restores the Giddy-Up state and deletes the masks of this animal from the config folder.</GUE_OverviewHint>
+  <GUE_SumRider>rider position</GUE_SumRider>
+  <GUE_SumMountable>made rideable</GUE_SumMountable>
+  <GUE_SumNotMountable>made not rideable</GUE_SumNotMountable>
+  <GUE_SumFront>draw order</GUE_SumFront>
+  <GUE_SumOverlay>overlay</GUE_SumOverlay>
+  <GUE_SumMasks>{0} mask(s)</GUE_SumMasks>
+  <GUE_SumScale>size ×{0}</GUE_SumScale>
+  <GUE_SettingsCategory>Giddy-Up Editor</GUE_SettingsCategory>
+  <GUE_SettingsInfo>{0} animal kind(s) changed locally.</GUE_SettingsInfo>
+  <GUE_MaskUndo>Undo</GUE_MaskUndo>
+  <GUE_MaskRedo>Redo</GUE_MaskRedo>
+  <GUE_MaskHintSide>The side mask is the part of the animal that lies in front of the rider when facing east. It is mirrored for west.</GUE_MaskHintSide>
+  <GUE_MaskHintBack>The back mask is the part of the animal that lies in front of the rider when facing north, for example back, rump or tail.</GUE_MaskHintBack>
+  <GUE_SaveFailed>Saving failed, the previous state is kept: {0}</GUE_SaveFailed>
+  <GUE_ExportNothing>Nothing to export: the patch can contain the rider position, body size and offsets of existing overlays.</GUE_ExportNothing>
+  <GUE_ExportMissing>Not included in the patch: {0}</GUE_ExportMissing>
+  <GUE_ExNotMountable>rideability</GUE_ExNotMountable>
+  <GUE_ExNotFront>draw order</GUE_ExNotFront>
+  <GUE_ExNotHidden>hidden overlays</GUE_ExNotHidden>
+  <GUE_ExNotScale>overlay scale</GUE_ExNotScale>
+  <GUE_ExNotMasks>masks</GUE_ExNotMasks>
+  <GUE_ExNotNewOverlay>offsets of new overlays</GUE_ExNotNewOverlay>
+  <GUE_MaskCopyVariants>Copy to all coats ({0})</GUE_MaskCopyVariants>
+  <GUE_MaskCopyVariantsTip>Copies this mask to the other coat variants: {0}. The points stay the same, the cut-out comes from each coat's own texture. Existing masks of these coats for this direction are replaced.</GUE_MaskCopyVariantsTip>
+  <GUE_MaskCopied>Mask copied to {0} coat variant(s).</GUE_MaskCopied>
+  <GUE_MaskCopyFailed>Not copied, texture missing or the mask would cover nothing: {0}</GUE_MaskCopyFailed>
 </LanguageData>

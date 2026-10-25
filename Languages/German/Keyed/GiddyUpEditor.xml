@@ -46,7 +46,7 @@
   <GUE_SavedWhere>Änderungen wirken sofort und werden im RimWorld-Config-Ordner gespeichert.</GUE_SavedWhere>
   <GUE_Exported>Patch gespeichert: {0}</GUE_Exported>
   <GUE_MaskTitle>Maske · {0} ({1})</GUE_MaskTitle>
-  <GUE_MaskNoTexture>Die Südansicht dieses Tiers lässt sich nicht lesen.</GUE_MaskNoTexture>
+  <GUE_MaskNoTexture>Diese Ansicht des Tiers lässt sich nicht lesen.</GUE_MaskNoTexture>
   <GUE_MaskPreview>Vorschau</GUE_MaskPreview>
   <GUE_MaskNeedsRider>Setze im Editor einen Reiter auf oder wähle eine Pawn-Art, um die Maske über dem Reiter zu sehen.</GUE_MaskNeedsRider>
   <GUE_MaskTools>Flächen</GUE_MaskTools>
@@ -63,4 +63,43 @@
   <GUE_KindFailed>{0} ließ sich nicht erzeugen.</GUE_KindFailed>
   <GUE_MaskZoom>Zoom</GUE_MaskZoom>
   <GUE_MaskFit>Einpassen</GUE_MaskFit>
+  <GUE_SizeHead>Größe</GUE_SizeHead>
+  <GUE_BodyScale>Körpergröße</GUE_BodyScale>
+  <GUE_BodyScaleInfo>Zeichengröße {0} statt {1}. Maske und Overlays wachsen mit, die Reiterposition passt du selbst an.</GUE_BodyScaleInfo>
+  <GUE_Overview>Übersicht</GUE_Overview>
+  <GUE_OverviewTitle>Lokal geänderte Reittiere</GUE_OverviewTitle>
+  <GUE_OverviewEmpty>Noch keine Tiere geändert.</GUE_OverviewEmpty>
+  <GUE_OverviewMissing>nicht geladen</GUE_OverviewMissing>
+  <GUE_OverviewEdit>Bearbeiten</GUE_OverviewEdit>
+  <GUE_OverviewEditTip>Zum Bearbeiten muss ein Tier dieser Art auf der aktuellen Karte sein.</GUE_OverviewEditTip>
+  <GUE_OverviewReset>Zurücksetzen</GUE_OverviewReset>
+  <GUE_OverviewConfirm>Wirklich?</GUE_OverviewConfirm>
+  <GUE_OverviewResetAll>Alle zurücksetzen</GUE_OverviewResetAll>
+  <GUE_OverviewHint>Zurücksetzen stellt den Stand von Giddy-Up wieder her und löscht die Masken dieses Tiers aus dem Config-Ordner.</GUE_OverviewHint>
+  <GUE_SumRider>Reiterposition</GUE_SumRider>
+  <GUE_SumMountable>reitbar gemacht</GUE_SumMountable>
+  <GUE_SumNotMountable>nicht reitbar gemacht</GUE_SumNotMountable>
+  <GUE_SumFront>Zeichenreihenfolge</GUE_SumFront>
+  <GUE_SumOverlay>Overlay</GUE_SumOverlay>
+  <GUE_SumMasks>{0} Maske(n)</GUE_SumMasks>
+  <GUE_SumScale>Größe ×{0}</GUE_SumScale>
+  <GUE_SettingsCategory>Giddy-Up Editor</GUE_SettingsCategory>
+  <GUE_SettingsInfo>{0} Tierart(en) lokal geändert.</GUE_SettingsInfo>
+  <GUE_MaskUndo>Rückgängig</GUE_MaskUndo>
+  <GUE_MaskRedo>Wiederholen</GUE_MaskRedo>
+  <GUE_MaskHintSide>Die Maske für die Seite ist der Teil des Tiers, der beim Blick nach Osten vor dem Reiter liegt. Für Westen wird sie gespiegelt.</GUE_MaskHintSide>
+  <GUE_MaskHintBack>Die Maske für hinten ist der Teil des Tiers, der beim Blick nach Norden vor dem Reiter liegt, etwa Rücken, Hinterteil oder Schwanz.</GUE_MaskHintBack>
+  <GUE_SaveFailed>Speichern fehlgeschlagen, der vorige Stand bleibt erhalten: {0}</GUE_SaveFailed>
+  <GUE_ExportNothing>Nichts zu exportieren: Der Patch kann Reiterposition, Körpergröße und Versatz vorhandener Overlays enthalten.</GUE_ExportNothing>
+  <GUE_ExportMissing>Nicht im Patch enthalten: {0}</GUE_ExportMissing>
+  <GUE_ExNotMountable>Reitbarkeit</GUE_ExNotMountable>
+  <GUE_ExNotFront>Zeichenreihenfolge</GUE_ExNotFront>
+  <GUE_ExNotHidden>ausgeblendete Overlays</GUE_ExNotHidden>
+  <GUE_ExNotScale>Overlay-Skalierung</GUE_ExNotScale>
+  <GUE_ExNotMasks>Masken</GUE_ExNotMasks>
+  <GUE_ExNotNewOverlay>Versatz neuer Overlays</GUE_ExNotNewOverlay>
+  <GUE_MaskCopyVariants>Auf alle Felle übertragen ({0})</GUE_MaskCopyVariants>
+  <GUE_MaskCopyVariantsTip>Überträgt diese Maske auf die anderen Fellvarianten: {0}. Die Punkte bleiben gleich, ausgeschnitten wird aus der Textur des jeweiligen Fells. Vorhandene Masken dieser Felle für diese Richtung werden ersetzt.</GUE_MaskCopyVariantsTip>
+  <GUE_MaskCopied>Maske auf {0} Fellvariante(n) übertragen.</GUE_MaskCopied>
+  <GUE_MaskCopyFailed>Nicht übertragen, Textur fehlt oder Maske träfe nichts: {0}</GUE_MaskCopyFailed>
 </LanguageData>
